@@ -70,6 +70,7 @@ const main = async () => {
 
   let getFollows = async (offset) => {
     ora.text = await 'Fetching follows'
+    ora.color = await 'yellow'
     // Get followed users
     let response = await Kitsu.findAll('follow', {
       fields: {
@@ -83,11 +84,11 @@ const main = async () => {
       },
       sort: '-created_at'
     })
-    for (let user of await response) {
-      ora.text = await `Fetching ${user.followed.name} activity`
+    for (let follow of await response) {
+      ora.text = await `Fetching ${follow.followed.name} activity`
       ora.color = await 'cyan'
       // Get last activity from each followed user
-      let feed = await Kitsu.one('activityGroup', user.followed.id).get({
+      let feed = await Kitsu.one('activityGroup', follow.followed.id).get({
         include: 'media,user',
         page: { limit: 1 }
       })
@@ -97,14 +98,17 @@ const main = async () => {
       if (await moment().diff(time, 'months') >= 6) {
         await ora.stop()
         // console.log(`\nhttps://kitsu.io/users/${user.followed.name}`)
-        await console.log(`${user.followed.name} was last active ${time.fromNow()}`)
+        await console.log(`${follow.followed.name} was last active ${time.fromNow()}`)
         // Ask user for confirmation
-        if (await input.confirm(`Unfollow ${user.followed.name}?`, { default: false })) {
-          console.log('If only deletion was implemented yet.')
+        if (await input.confirm(`Unfollow ${follow.followed.name}?`, { default: false })) {
+          await ora.start()
+          ora.text = await `Unfollowing ${follow.followed.name}`
+          ora.color = await 'red'
+          await Kitsu.destroy('follow', follow.id)
+        } else {
+          await ora.start()
         }
-        await ora.start()
       }
-      ora.color = await 'yellow'
     }
     // Load next page if it exists
     if (await response.links.next) await getFollows(offset += 20)
@@ -113,16 +117,6 @@ const main = async () => {
   await getFollows(0)
 
   ora.stop()
-
-  /*
-  Kitsu.destory('follow', 396878)
-  */
 }
 
 main()
-
-// https://kitsu.io/api/edge/follows?include=follower&page[limit]=20&page[offset]=${offset}&sort=-created_at&filter[followed]=${username}
-
-// TODO: Delete follower:
-// DELETE "https://kitsu.io/api/edge/follows/396878
-// GET    `https://kitsu.io/api/edge/users?filter[name]=${userInput}&fields[users]=id`
