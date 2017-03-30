@@ -8,7 +8,9 @@
 [![CC Issues]][6]
 [![David]][7]
 
-Prune inactive [Kitsu][0] you're following
+Prune inactive [Kitsu][0] users you're following
+
+![](https://fat.gfycat.com/LivelyFondFiddlercrab.gif)
 
 ## Requirements
 
