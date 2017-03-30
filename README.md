@@ -35,6 +35,17 @@ Prune inactive [Kitsu][0] users you're following
     npm i
     ```
 
+1. Rename `src/env-template.js` to `src/env.js` and add your username/password
+
+    ```javascript
+    export const env = {
+      USERNAME: '',
+      PASSWORD: '',
+      CLIENT_ID: '',
+      CLIENT_SECRET: ''
+    }
+    ```
+
 1. Run the script:
 
     ```bash
