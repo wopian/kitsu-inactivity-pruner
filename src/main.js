@@ -1,5 +1,6 @@
 import OAuth2 from 'client-oauth2'
 import JsonApi from 'devour-client'
+import Ora from 'ora'
 import input from 'input'
 import moment from 'moment'
 import { version } from '../package'
@@ -50,10 +51,12 @@ Kitsu.define('activityGroup', {
 }, { collectionPath: 'feeds/user_aggr' })
 
 const main = async () => {
+  const ora = await Ora({ color: 'yellow', text: 'Authorising' }).start()
   let { accessToken } = await auth.owner.getToken(username, password)
   Kitsu.headers['Authorization'] = `Bearer ${accessToken}`
 
   // Get user ID
+  ora.text = await 'Fetching user ID'
   await Kitsu.findAll('user', {
     fields: {
       users: 'id'
@@ -66,6 +69,7 @@ const main = async () => {
   })
 
   let getFollows = async (offset) => {
+    ora.text = await 'Fetching follows'
     // Get followed users
     let response = await Kitsu.findAll('follow', {
       fields: {
@@ -79,9 +83,9 @@ const main = async () => {
       },
       sort: '-created_at'
     })
-    // Display total user count
-    if (offset === 0) console.log(`\nFound ${await response.meta.count} users`)
     for (let user of await response) {
+      ora.text = await `Fetching ${user.followed.name} activity`
+      ora.color = await 'cyan'
       // Get last activity from each followed user
       let feed = await Kitsu.one('activityGroup', user.followed.id).get({
         include: 'media,user',
@@ -91,19 +95,24 @@ const main = async () => {
       let time = await moment(feed[0].activities.time)
       // Skip if last activity was less than 60 days
       if (await moment().diff(time, 'months') >= 6) {
+        await ora.stop()
         // console.log(`\nhttps://kitsu.io/users/${user.followed.name}`)
-        console.log(`\n${await user.followed.name} was last active ${await time.fromNow()}`)
+        await console.log(`${user.followed.name} was last active ${time.fromNow()}`)
         // Ask user for confirmation
         if (await input.confirm(`Unfollow ${user.followed.name}?`, { default: false })) {
           console.log('If only deletion was implemented yet.')
         }
+        await ora.start()
       }
+      ora.color = await 'yellow'
     }
     // Load next page if it exists
     if (await response.links.next) await getFollows(offset += 20)
   }
 
   await getFollows(0)
+
+  ora.stop()
 
   /*
   Kitsu.destory('follow', 396878)
