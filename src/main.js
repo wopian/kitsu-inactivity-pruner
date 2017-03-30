@@ -1,12 +1,10 @@
 import OAuth2 from 'client-oauth2'
 import JsonApi from 'devour-client'
-import Q from 'q'
 import input from 'input'
 import { version } from '../package'
 // import { log, err, pe } from './util'
 import { env } from './env'
 
-let FOLLOWS = []
 let ID
 
 const username = env.USERNAME
@@ -51,8 +49,8 @@ const main = async () => {
     ID = response[0].id
   })
 
-  let getFollows = await ((offset) => {
-    Kitsu.findAll('follow', {
+  let getFollows = async (offset) => {
+    let response = await Kitsu.findAll('follow', {
       fields: {
         users: 'name'
       },
@@ -64,22 +62,15 @@ const main = async () => {
       },
       sort: '-created_at'
     })
-    .then(response => {
-      console.log(`Done: ${offset}`)
-      // FOLLOWS.push(user)
-      if (response.links.next) getFollows(offset += 20)
-    })
-  })
+    for (let user of await response) {
+      if (await input.confirm(`Do you want to unfollow ${user.followed.name}?`, { default: false })) {
+        console.log('If only deletion was implemented yet.')
+      }
+    }
+    if (await response.links.next) await getFollows(offset += 20)
+  }
 
   await getFollows(0)
-
-  /*
-  .then(() => {
-    Promise.each(FOLLOWS, user => {
-      ask(user.followed.name)
-    })
-  })
-  */
 
   /*
   Kitsu.destory('follow', 396878)
