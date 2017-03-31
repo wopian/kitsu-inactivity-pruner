@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "James Harris <wopian@wopian.me>",
   "scripts": {
-    "start": "babel-node --presets es2015,stage-0 src/main.js",
+    "start": "babel-node --presets latest,stage-0 src/main.js",
     "test": " "
   },
   "main": "src/main.js",
@@ -21,7 +21,7 @@
     "babel-cli": "~6.24.0",
     "babel-core": "~6.24.0",
     "babel-eslint": "~7.2.1",
-    "babel-preset-es2015": "~6.24.0",
+    "babel-preset-latest": "~6.24.0",
     "babel-preset-stage-0": "~6.22.0",
     "client-oauth2": "~4.0.0",
     "devour-client": "~1.4.1",
