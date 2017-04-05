@@ -1,7 +1,5 @@
 # Inactivity Pruner
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/wopian/kitsu-inactivity-pruner.svg)](https://greenkeeper.io/)
-
 [![Github Rl]][1]
 [![Travis]][2]
 [![AppVeyor]][3]
