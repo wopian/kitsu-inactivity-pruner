@@ -30,9 +30,9 @@ Prune inactive [Kitsu][0] users you're following
 1. Install dependencies:
 
     ```bash
-    yarn
+    yarn install
     # or
-    npm i
+    npm install
     ```
 
 1. Rename `src/env-template.js` to `src/env.js` and add your username/password
