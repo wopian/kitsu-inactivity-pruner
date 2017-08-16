@@ -19,7 +19,7 @@
   "homepage": "https://github.com/wopian/kitsu-inactivity-pruner#readme",
   "dependencies": {
     "babel-cli": "~6.24.0",
-    "babel-core": "~6.25.0",
+    "babel-core": "~6.26.0",
     "babel-eslint": "~7.2.1",
     "babel-preset-latest": "~6.24.0",
     "babel-preset-stage-0": "~6.24.1",
