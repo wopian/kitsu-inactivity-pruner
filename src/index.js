@@ -88,6 +88,7 @@ const main = async () => {
       )
     }
     await getFollows({ id })
+    ora.stop()
   } catch (error) {
     console.error(error)
   }
