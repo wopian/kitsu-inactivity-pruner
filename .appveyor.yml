@@ -1,13 +1,15 @@
 environment:
-  nodejs_version: ""
+  matrix:
+    - nodejs_version: ""
+    - nodejs_version: "8"
 platform:
 - x64
+- x86
 cache:
-- node_modules
-- "%LOCALAPPDATA%\\Yarn"
+# - "%LOCALAPPDATA%\\Yarn"
 install:
 - ps: Install-Product node $env:nodejs_version $env:platform
-- yarn
+- yarn upgrade
 test_script:
 - yarn test
 build: off

@@ -1,24 +1,27 @@
 # Inactivity Pruner
 
-[![Github Rl]][1]
-[![Travis]][2]
-[![AppVeyor]][3]
-[![CC Coverage]][4]
-[![CC Score]][5]
-[![CC Issues]][6]
-[![David]][7]
+[![Release Badge]][Release]
+[![David Badge]][David]
 
-Prune inactive [Kitsu][0] users you're following
+[![Travis Badge]][Travis]
+[![AppVeyor Badge]][Appveyor]
+[![CC Coverage Badge]][CC Coverage]
+[![CC Score Badge]][CC Score]
+[![CC Issues Badge]][CC Issues]
 
-![](https://fat.gfycat.com/LivelyFondFiddlercrab.gif)
+Prune inactive [Kitsu.io][KITSU] users you're following
 
-## Requirements
+![](https://fat.gfycat.com/SentimentalComfortableGrackle.gif)
 
-- [git](https://git-scm.com/) 2.0.0 or newer
-- [node.js](https://nodejs.org) 7.0.0 or newer
-- [yarn](https://https://yarnpkg.com) 0.21.0 or newer (optional)
+## Usage
 
-## Setup
+### Requirements
+
+- [git] `>2.0.0`
+- [node] `>8.0.0`
+- [yarn] `>1.0.0` (optional)
+
+### Install & Run
 
 1. Download source code:
 
@@ -35,12 +38,12 @@ Prune inactive [Kitsu][0] users you're following
     npm install
     ```
 
-1. Rename `src/env-template.js` to `src/env.js` and add your username/password
+1. Rename `config.template.js` to `config.js` and add your username/password
 
     ```javascript
     export const env = {
-      USERNAME: '',
-      PASSWORD: '',
+      USERNAME: 'josh',
+      PASSWORD: 'hunter2',
       CLIENT_ID: '',
       CLIENT_SECRET: ''
     }
@@ -56,27 +59,31 @@ Prune inactive [Kitsu][0] users you're following
 
 ## Releases
 
-See [CHANGELOG][8]
+See [CHANGELOG]
 
 ## License
 
-All code released under the [MIT license][9]
+All code released under the [MIT] license
 
-[GitHub Rl]:https://img.shields.io/github/release/wopian/kitsu-inactivity-pruner.svg?style=flat-square
-[Travis]:https://img.shields.io/travis/wopian/kitsu-inactivity-pruner/master.svg?style=flat-square&label=linux%20%26%20macOS
-[CC Coverage]:https://img.shields.io/codeclimate/coverage/github/wopian/kitsu-inactivity-pruner.svg?style=flat-square
-[CC Score]:https://img.shields.io/codeclimate/github/wopian/kitsu-inactivity-pruner.svg?style=flat-square
-[CC Issues]:https://img.shields.io/codeclimate/issues/github/wopian/kitsu-inactivity-pruner.svg?style=flat-square
-[David]:https://img.shields.io/david/wopian/kitsu-inactivity-pruner.svg?style=flat-square
-[AppVeyor]:https://img.shields.io/appveyor/ci/wopian/kitsu-inactivity-pruner/master.svg?style=flat-square&label=windows
+[Kitsu]:https://kitsu.io
+[git]:https://git-scm.com
+[node]:https://nodejs.org
+[yarn]:https://yarnpkg.com
 
-[0]:https://kitsu.io
-[1]:https://github.com/wopian/kitsu-inactivity-pruner/releases
-[2]:https://travis-ci.org/wopian/kitsu-inactivity-pruner
-[3]:https://ci.appveyor.com/project/wopian/kitsu-inactivity-pruner
-[4]:https://codeclimate.com/github/wopian/kitsu-inactivity-pruner/coverage
-[5]:https://codeclimate.com/github/wopian/kitsu-inactivity-pruner
-[6]:https://codeclimate.com/github/wopian/kitsu-inactivity-pruner/issues
-[7]:https://david-dm.org/wopian/kitsu-inactivity-pruner
-[8]:https://github.com/wopian/kitsu-inactivity-pruner/blob/master/CHANGELOG.md
-[9]:https://github.com/wopian/kitsu-inactivity-pruner/blob/master/LICENSE.md
+[CHANGELOG]:CHANGELOG.md
+[MIT]:LICENSE.md
+
+[Release]:https://github.com/wopian/kitsu-inactivity-pruner/releases
+[Release Badge]:https://img.shields.io/github/release/wopian/kitsu-inactivity-pruner.svg?style=flat-square
+[Travis]:https://travis-ci.org/wopian/kitsu-inactivity-pruner
+[Travis Badge]:https://img.shields.io/travis/wopian/kitsu-inactivity-pruner/master.svg?style=flat-square&label=linux%20%26%20macOS
+[CC Coverage]:https://codeclimate.com/github/wopian/kitsu-inactivity-pruner/coverage
+[CC Coverage Badge]:https://img.shields.io/codeclimate/coverage/github/wopian/kitsu-inactivity-pruner.svg?style=flat-square
+[CC Score]:https://codeclimate.com/github/wopian/kitsu-inactivity-pruner
+[CC Score Badge]:https://img.shields.io/codeclimate/github/wopian/kitsu-inactivity-pruner.svg?style=flat-square
+[CC Issues]:https://codeclimate.com/github/wopian/kitsu-inactivity-pruner/issues
+[CC Issues Badge]:https://img.shields.io/codeclimate/issues/github/wopian/kitsu-inactivity-pruner.svg?style=flat-square
+[David]:https://david-dm.org/wopian/kitsu-inactivity-pruner
+[David Badge]:https://img.shields.io/david/wopian/kitsu-inactivity-pruner.svg?style=flat-square
+[AppVeyor]:https://ci.appveyor.com/project/wopian/kitsu-inactivity-pruner
+[AppVeyor Badge]:https://img.shields.io/appveyor/ci/wopian/kitsu-inactivity-pruner/master.svg?style=flat-square&label=windows
