@@ -11,7 +11,7 @@
 
 Prune inactive [Kitsu.io][KITSU] users you're following
 
-![](https://fat.gfycat.com/SentimentalComfortableGrackle.gif)
+![](https://thumbs.gfycat.com/SentimentalComfortableGrackle-max-14mb.gif)
 
 ## Usage
 
