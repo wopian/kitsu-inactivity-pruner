@@ -34,7 +34,6 @@
     "generate-changelog": "~1.5.0",
     "standard": "~10.0.3"
   },
-  
   "renovate": {
     "extends": [
       "config:base"
