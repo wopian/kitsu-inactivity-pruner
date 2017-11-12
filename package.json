@@ -33,5 +33,39 @@
     "eslint": "~4.11.0",
     "generate-changelog": "~1.5.0",
     "standard": "~10.0.3"
+  },
+  
+  "renovate": {
+    "extends": [
+      "config:base"
+    ],
+    "assignees": [
+      "wopian"
+    ],
+    "pinVersions": false,
+    "automerge": false,
+    "commitMessage": "{{semanticPrefix}}update {{depName}} to {{newVersion}}",
+    "labels": [
+      "dependencies"
+    ],
+    "lockFileMaintenance": {
+      "enabled": false
+    },
+    "semanticCommits": true,
+    "separateMajorReleases": false,
+    "unpublishSafe": true,
+    "schedule": [
+      "before 5am on monday"
+    ],
+    "prCreation": "not-pending",
+    "prTitle": "{{semanticPrefix}}{{#if isPin}}pin{{else}}update{{/if}} {{depName}} to {{#if isRange}}{{newVersion}}{{else}}{{#if isMajor}}{{newVersionMajor}}.x{{else}}{{newVersion}}{{/if}}{{/if}}",
+    "packageRules": [
+      {
+        "packagePatterns": [
+          "^babel"
+        ],
+        "groupName": "babel"
+      }
+    ]
   }
 }
