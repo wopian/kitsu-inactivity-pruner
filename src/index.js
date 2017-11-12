@@ -17,12 +17,15 @@ const auth = new OAuth2({
   accessTokenUri: 'https://kitsu.io/api/oauth/token'
 })
 
+let removedCount
+
 api.headers['User-Agent'] = `InactivityPruner/${version} (${homepage})`
 
 const ora = Ora({ color: 'yellow', text: '' }).start()
 
 const findInactiveUsers = async follows => {
   try {
+    removedCount = 0
     for (let { id, followed } of follows) {
       if (followed === undefined) {
         await api.remove('follows', id)
@@ -46,6 +49,7 @@ const findInactiveUsers = async follows => {
             await api.remove('follows', id)
             ora.text = `Unfollowed ${followed.name}`
             ora.color = 'green'
+            removedCount++
           } else ora.start()
         }
       }
@@ -67,7 +71,7 @@ const getFollows = async ({ id, offset = 0 }) => {
       sort: '-created_at'
     })
     await findInactiveUsers(data)
-    if (links.next) await getFollows({ id, offset: offset += 20 })
+    if (links.next) await getFollows({ id, offset: offset += 20 - removedCount })
   } catch (error) {
     console.error(error)
   }
