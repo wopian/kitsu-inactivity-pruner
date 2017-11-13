@@ -41,7 +41,7 @@ Prune inactive [Kitsu.io][KITSU] users you're following
 1. Rename `config.template.js` to `config.js` and add your username/password
 
     ```javascript
-    export const env = {
+    export const config = {
       USERNAME: 'josh',
       PASSWORD: 'hunter2',
       CLIENT_ID: '',
