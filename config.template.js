@@ -1,4 +1,4 @@
-export const env = {
+export const config = {
   USERNAME: '',
   PASSWORD: '',
   CLIENT_ID: '', // Leave blank
