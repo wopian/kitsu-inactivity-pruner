@@ -91,5 +91,5 @@ All code released under the [MIT] license
 [cc maintainability]:https://codeclimate.com/github/wopian/kitsu-inactivity-pruner
 [cc maintainability badge]:https://img.shields.io/codeclimate/maintainability/wopian/kitsu-inactivity-pruner.svg?style=flat-square
 
-[donate]:https://www.paypal.me/wopian
+[donate]:https://paypal.me/pools/c/7ZZSVeBON7
 [donate badge]:https://img.shields.io/badge/£-donate-ff69b4.svg?style=flat-square
