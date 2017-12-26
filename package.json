@@ -52,8 +52,7 @@
       ":label(dependencies)",
       ":timezone(Europe/London)",
       "group:babelMonorepo",
-      "group:linters",
-      "schedule:weekly"
+      "group:linters"
     ],
     "prTitle": "update {{depName}} to {{newVersion}}",
     "commitMessage": "update {{depName}} to {{newVersion}}"
