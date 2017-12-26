@@ -57,6 +57,6 @@
       "schedule:weekly"
     ],
     "prTitle": "update {{depName}} to {{newVersion}}",
-    "commitMessage": "update {{depName}} to {{newVersion}}",
+    "commitMessage": "update {{depName}} to {{newVersion}}"
   }
 }
