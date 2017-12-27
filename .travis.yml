@@ -4,7 +4,6 @@ os:
 language: node_js
 node_js:
 - node
-- 8 # LTS Jan 20
 cache:
   yarn: true
 sudo: false
