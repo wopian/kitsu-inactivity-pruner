@@ -3,6 +3,7 @@
 [![release badge]][release]
 [![david badge]][david]
 [![donate badge]][donate]
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwopian%2Fkitsu-inactivity-pruner.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwopian%2Fkitsu-inactivity-pruner?ref=badge_shield)
 
 [![travis badge]][travis]
 [![appveyor badge]][appveyor]
@@ -93,3 +94,6 @@ All code released under the [MIT] license
 
 [donate]:https://www.patreon.com/wopian
 [donate badge]:https://img.shields.io/badge/patreon-donate-ff69b4.svg?style=flat-square
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwopian%2Fkitsu-inactivity-pruner.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwopian%2Fkitsu-inactivity-pruner?ref=badge_large)
