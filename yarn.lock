@@ -935,10 +935,6 @@ callsites@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-0.2.0.tgz#afab96262910a7f33c19a5775825c69f34e350ca"
 
-camelcase@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
-
 caniuse-lite@^1.0.30000784:
   version "1.0.30000784"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000784.tgz#129ced74e9a1280a441880b6cd2bce30ef59e6c0"
@@ -1115,10 +1111,6 @@ debug@^3.0.1, debug@^3.1.0:
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
   dependencies:
     ms "2.0.0"
-
-decamelize@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
 
 deep-extend@~0.4.0:
   version "0.4.2"
@@ -2167,14 +2159,13 @@ kind-of@^4.0.0:
   dependencies:
     is-buffer "^1.1.5"
 
-kitsu@~3.2.0-rc.2:
-  version "3.2.0-rc.2"
-  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-3.2.0-rc.2.tgz#22326825d7447384e315b0a4e6c5af7cb0f04e49"
+kitsu@~4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-4.4.0.tgz#7b5373c7edc05ada02a835fbcfb0292bdcc29e5d"
   dependencies:
     axios "^0.17.0"
     babel-runtime "^6.26.0"
-    camelcase "^4.1.0"
-    decamelize "^1.2.0"
+    pluralize "^7.0.0"
 
 levn@^0.3.0, levn@~0.3.0:
   version "0.3.0"
