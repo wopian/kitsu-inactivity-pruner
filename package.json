@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "babel-eslint": "~8.2.0",
-    "eslint": "~4.16.0",
+    "eslint": "~4.17.0",
     "generate-changelog": "~1.7.0",
     "standard": "~10.0.3"
   },
