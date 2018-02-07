@@ -6,6 +6,7 @@
   "author": "James Harris <wopian@wopian.me>",
   "scripts": {
     "start": "babel-node src",
+    "lint": "eslint src",
     "test": " "
   },
   "main": "src/index.js",
@@ -29,10 +30,9 @@
     "ora": "~1.4.0"
   },
   "devDependencies": {
-    "babel-eslint": "~8.2.0",
     "eslint": "~4.17.0",
-    "generate-changelog": "~1.7.0",
-    "standard": "~10.0.3"
+    "eslint-config-wopian": "~1.0.2",
+    "generate-changelog": "~1.7.0"
   },
   "renovate": {
     "extends": [
