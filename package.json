@@ -25,7 +25,7 @@
     "babel-preset-stage-0": "~6.24.1",
     "client-oauth2": "~4.1.0",
     "input": "~1.0.1",
-    "kitsu": "~4.6.0",
+    "kitsu": "~5.0.0",
     "moment": "~2.20.0",
     "ora": "~1.4.0"
   },
