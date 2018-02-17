@@ -30,7 +30,7 @@
     "ora": "~1.4.0"
   },
   "devDependencies": {
-    "eslint": "~4.17.0",
+    "eslint": "~4.18.0",
     "eslint-config-wopian": "~1.2.0",
     "generate-changelog": "~1.7.0"
   },
