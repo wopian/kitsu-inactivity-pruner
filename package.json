@@ -27,7 +27,7 @@
     "input": "~1.0.1",
     "kitsu": "~5.1.0",
     "moment": "~2.22.0",
-    "ora": "~2.0.0"
+    "ora": "~2.1.0"
   },
   "devDependencies": {
     "eslint": "~4.19.0",
