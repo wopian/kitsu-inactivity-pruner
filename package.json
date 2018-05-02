@@ -36,25 +36,7 @@
   },
   "renovate": {
     "extends": [
-      ":npm",
-      ":preserveSemverRanges",
-      ":combinePatchMinorReleases",
-      ":renovatePrefix",
-      ":semanticCommits",
-      ":semanticCommitTypeAll(chore)",
-      ":rebaseStalePrs",
-      ":unpublishSafe",
-      ":prNotPending",
-      ":automergeDisabled",
-      ":maintainLockFilesMonthly",
-      ":ignoreUnstable",
-      ":updateNotScheduled",
-      ":label(dependencies)",
-      ":timezone(Europe/London)",
-      ":assignee(wopian)",
-      "group:babelMonorepo"
-    ],
-    "prTitle": "update {{depName}} to {{newVersion}}",
-    "commitMessage": "update {{depName}} to {{newVersion}}"
+      "@wopian"
+    ]
   }
 }
