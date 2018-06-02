@@ -93,8 +93,8 @@ acorn@^3.0.4:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
 
 acorn@^5.5.0:
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.6.0.tgz#572bedb377a1c61b7a289e72b8c5cfeb7baaf0bf"
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.6.1.tgz#c9e50c3e3717cf897f1b071ceadbb543bbc0a8d4"
 
 ajv-keywords@^2.1.0:
   version "2.1.1"
@@ -1752,8 +1752,8 @@ js-tokens@^3.0.0, js-tokens@^3.0.2:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
 js-yaml@^3.9.1:
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.11.0.tgz#597c1a8bd57152f26d622ce4117851a51f5ebaef"
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.0.tgz#eaed656ec8344f10f527c6bfa1b6e2244de167d1"
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
@@ -1792,19 +1792,19 @@ kind-of@^6.0.0:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
 
-kitsu-core@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-5.1.0.tgz#dd777fa232996907f7f08f7200a657ffc08e9e71"
+kitsu-core@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-5.1.1.tgz#8a1445a03408a000c34aa51838f8d52ff50cb995"
   dependencies:
     babel-runtime "^6.26.0"
 
 kitsu@~5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-5.1.0.tgz#b5f5542e6384bf496e05970a36cb71ce9ab2a954"
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-5.1.1.tgz#57617de47dafc128eed8748ba33f3ea261600b8a"
   dependencies:
     axios "^0.18.0"
     babel-runtime "^6.26.0"
-    kitsu-core "^5.1.0"
+    kitsu-core "^5.1.1"
     pluralize "^7.0.0"
 
 levn@^0.3.0, levn@~0.3.0:
@@ -1933,8 +1933,8 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
     minimist "0.0.8"
 
 moment@~2.22.0:
-  version "2.22.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.1.tgz#529a2e9bf973f259c9643d237fda84de3a26e8ad"
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
 
 ms@2.0.0:
   version "2.0.0"
