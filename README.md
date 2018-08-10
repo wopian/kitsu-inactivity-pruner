@@ -75,21 +75,22 @@ All code released under the [MIT] license
 [MIT]:LICENSE.md
 
 [release]:https://github.com/wopian/kitsu-inactivity-pruner/releases
-[release badge]:https://img.shields.io/github/release/wopian/kitsu-inactivity-pruner.svg?style=flat-square
+[release badge]:https://flat.badgen.net/github/release/wopian/kitsu-inactivity-pruner
 
 [david]:https://david-dm.org/wopian/kitsu-inactivity-pruner
-[david badge]:https://img.shields.io/david/wopian/kitsu-inactivity-pruner.svg?style=flat-square
+[david badge]:https://flat.badgen.net/david/dep/wopian/kitsu-inactivity-pruner
+
 [david dev]:https://david-dm.org/wopian/kitsu-inactivity-pruner?type=dev
-[david dev badge]:https://img.shields.io/david/dev/wopian/kitsu-inactivity-pruner.svg?style=flat-square
+[david dev badge]:https://flat.badgen.net/david/dev/wopian/kitsu-inactivity-pruner
 
 [travis]:https://travis-ci.org/wopian/kitsu-inactivity-pruner
-[travis badge]:https://img.shields.io/travis/wopian/kitsu-inactivity-pruner/master.svg?style=flat-square&label=linux%20%26%20macOS
+[travis badge]:https://flat.badgen.net/travis/wopian/kitsu-inactivity-pruner
 
 [appveyor]:https://ci.appveyor.com/project/wopian/kitsu-inactivity-pruner
-[appveyor badge]:https://img.shields.io/appveyor/ci/wopian/kitsu-inactivity-pruner/master.svg?style=flat-square&label=windows
+[appveyor badge]:https://flat.badgen.net/appveyor/ci/wopian/kitsu-inactivity-pruner
 
 [cc maintainability]:https://codeclimate.com/github/wopian/kitsu-inactivity-pruner
 [cc maintainability badge]:https://img.shields.io/codeclimate/maintainability/wopian/kitsu-inactivity-pruner.svg?style=flat-square
 
 [donate]:https://paypal.me/wopian
-[donate badge]:https://img.shields.io/badge/support%20me%20on-paypal.me-ff69b4.svg?style=flat-square
+[donate badge]:https://flat.badgen.net/badge/support%20me%20on/paypal.me/pink
