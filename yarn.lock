@@ -46,6 +46,12 @@
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
+"@babel/runtime@^7.0.0-rc.1":
+  version "7.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.0.0-rc.1.tgz#42f36fc5817911c89ea75da2b874054922967616"
+  dependencies:
+    regenerator-runtime "^0.12.0"
+
 "@babel/template@7.0.0-beta.44":
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.0.0-beta.44.tgz#f8832f4fdcee5d59bf515e595fc5106c529b394f"
@@ -1856,19 +1862,19 @@ kind-of@^6.0.0:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
 
-kitsu-core@^5.2.2:
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-5.2.2.tgz#bfa4b53b0fa5402f67adb67267b62bf3b4ecd23f"
+kitsu-core@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-6.1.0.tgz#a73194d3174d8883bd87a7cb4a61a9e802601098"
   dependencies:
-    babel-runtime "^6.26.0"
+    "@babel/runtime" "^7.0.0-rc.1"
 
-kitsu@~5.2.0:
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-5.2.2.tgz#dfaea415a23a87e37f6b2db55ec152848d9b64c3"
+kitsu@~6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-6.1.0.tgz#5b5322dea7336f480df5976b17933346b7143934"
   dependencies:
+    "@babel/runtime" "^7.0.0-rc.1"
     axios "^0.18.0"
-    babel-runtime "^6.26.0"
-    kitsu-core "^5.2.2"
+    kitsu-core "^6.1.0"
     pluralize "^7.0.0"
 
 levn@^0.3.0, levn@~0.3.0:
@@ -2362,6 +2368,10 @@ regenerator-runtime@^0.10.5:
 regenerator-runtime@^0.11.0:
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
+
+regenerator-runtime@^0.12.0:
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
 
 regenerator-transform@^0.10.0:
   version "0.10.1"
