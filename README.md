@@ -7,6 +7,9 @@
 [![travis badge]][travis]
 [![appveyor badge]][appveyor]
 [![cc maintainability badge]][cc maintainability]
+[![cc debt badge]][cc debt]
+[![cc issues badge]][cc issues]
+[![cc loc badge]][cc loc]
 [![david dev badge]][david dev]
 
 Prune inactive [Kitsu.io] users you're following
@@ -90,7 +93,16 @@ All code released under the [MIT] license
 [appveyor badge]:https://flat.badgen.net/appveyor/ci/wopian/kitsu-inactivity-pruner
 
 [cc maintainability]:https://codeclimate.com/github/wopian/kitsu-inactivity-pruner
-[cc maintainability badge]:https://img.shields.io/codeclimate/maintainability/wopian/kitsu-inactivity-pruner.svg?style=flat-square
+[cc maintainability badge]:https://flat.badgen.net/codeclimate/maintainability/wopian/kitsu-inactivity-pruner
+
+[cc debt]:https://codeclimate.com/github/wopian/kitsu-inactivity-pruner
+[cc debt badge]:https://flat.badgen.net/codeclimate/tech-debt/wopian/kitsu-inactivity-pruner
+
+[cc issues]:https://codeclimate.com/github/wopian/kitsu-inactivity-pruner
+[cc issues badge]:https://flat.badgen.net/codeclimate/issues/wopian/kitsu-inactivity-pruner
+
+[cc loc]:https://codeclimate.com/github/wopian/kitsu-inactivity-pruner
+[cc loc badge]:https://flat.badgen.net/codeclimate/loc/wopian/kitsu-inactivity-pruner
 
 [donate]:https://paypal.me/wopian
 [donate badge]:https://flat.badgen.net/badge/support%20me%20on/paypal.me/pink
