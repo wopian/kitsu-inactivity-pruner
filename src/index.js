@@ -1,5 +1,5 @@
 import OAuth2 from 'client-oauth2'
-import Kitsu from 'kitsu'
+import Kitsu from 'kitsu/node'
 import Ora from 'ora'
 import input from 'input'
 import moment from 'moment'
