@@ -21,7 +21,7 @@ Prune inactive [Kitsu.io] users you're following
 ### Requirements
 
 - [git] `>= 2.0.0`
-- [node] `>= 8.0.0`
+- [node] `>= 10.0.0`
 - [yarn] `>= 1.0.0` (optional)
 
 ### Install & Run
