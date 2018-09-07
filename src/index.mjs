@@ -31,12 +31,12 @@ const promptToUnfollow = async (name, id, timeFromNow) => {
   await new Confirm({
     message: `Unfollow ${name}`,
     default: false
-  }).run().then(answer => {
+  }).run().then(async answer => {
     ora.start()
     if (answer) {
       ora.text = `Unfollowing ${name}`
       ora.color = 'blue'
-      api.remove('follows', id)
+      await api.remove('follows', id)
       ora.text = `Unfollowed ${name}`
       ora.color = 'green'
       removedCount++
