@@ -1,15 +1,14 @@
 {
   "name": "kitsu-inactivity-pruner",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Prune inactive accounts",
   "license": "MIT",
   "author": "James Harris <wopian@wopian.me>",
   "scripts": {
-    "start": "babel-node src",
-    "lint": "eslint src",
-    "test": " "
+    "start": "node --experimental-modules src",
+    "test": "eslint src/** --ext=.js,.mjs"
   },
-  "main": "src/index.js",
+  "main": "src",
   "repository": {
     "type": "git",
     "url": "https://github.com/wopian/kitsu-inactivity-pruner.git"
@@ -19,10 +18,6 @@
   },
   "homepage": "https://github.com/wopian/kitsu-inactivity-pruner#readme",
   "dependencies": {
-    "babel-cli": "~6.26.0",
-    "babel-core": "~6.26.0",
-    "babel-preset-env": "~1.7.0",
-    "babel-preset-stage-0": "~6.24.1",
     "client-oauth2": "~4.2.0",
     "input": "~1.0.1",
     "kitsu": "~6.3.0",
@@ -33,6 +28,9 @@
     "eslint": "~5.5.0",
     "eslint-config-wopian": "~1.4.0",
     "generate-changelog": "~1.7.0"
+  },
+  "engines": {
+    "node": ">= 10.0.0"
   },
   "renovate": {
     "extends": [
