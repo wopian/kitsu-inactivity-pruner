@@ -41,7 +41,7 @@ Prune inactive [Kitsu.io] users you're following
     npm install
     ```
 
-1. Rename `config.template.js` to `config.js` and add your username/password
+1. Rename `config.template.mjs` to `config.mjs` and add your username/password
 
     ```javascript
     export const config = {
