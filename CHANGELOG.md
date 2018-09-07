@@ -1,3 +1,13 @@
+#### 3.0.1 (2018-09-07)
+
+##### Documentation Changes
+
+*  rename files to .mjs ([a728a9c6](https://github.com/wopian/kitsu-inactivity-pruner/commit/a728a9c6afa0a01507b3b177b376461aeb441dac))
+
+##### Bug Fixes
+
+*  await follow deletion ([e36cfefa](https://github.com/wopian/kitsu-inactivity-pruner/commit/e36cfefac6989000fae4ec4e03cca88f9e40d686))
+
 #### 3.0.0 (2018-09-07)
 
 ##### Build System / Dependencies
