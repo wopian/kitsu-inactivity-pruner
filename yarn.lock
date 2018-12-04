@@ -1110,9 +1110,9 @@ kitsu-core@^6.4.0:
   dependencies:
     "@babel/runtime" "^7.0.0"
 
-kitsu@~6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-6.4.0.tgz#f54b6a9556bee0bb81c7c29a46a7a90f0fc80ab7"
+kitsu@~6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-6.5.0.tgz#d4267647ac25bf9fdc0631b869c02929099e9d79"
   dependencies:
     "@babel/runtime" "^7.0.0"
     axios "^0.18.0"
