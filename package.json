@@ -21,7 +21,7 @@
     "client-oauth2": "~4.2.0",
     "kitsu": "~6.5.0",
     "moment": "~2.24.0",
-    "ora": "~3.2.0",
+    "ora": "~3.4.0",
     "prompt-confirm": "~2.0.4"
   },
   "devDependencies": {
