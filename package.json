@@ -19,7 +19,7 @@
   "homepage": "https://github.com/wopian/kitsu-inactivity-pruner#readme",
   "dependencies": {
     "client-oauth2": "~4.2.0",
-    "kitsu": "~6.5.0",
+    "kitsu": "~7.1.0",
     "moment": "~2.24.0",
     "ora": "~4.0.0",
     "prompt-confirm": "~2.0.4"

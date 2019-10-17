@@ -366,9 +366,9 @@ astral-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/astral-regex/-/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
 
-axios@^0.18.0:
-  version "0.18.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.1.tgz#ff3f0de2e7b5d180e757ad98000f1081b87bcea3"
+axios@^0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.0.tgz#8e09bff3d9122e133f7b8101c8fbdd00ed3d2ab8"
   dependencies:
     follow-redirects "1.5.10"
     is-buffer "^2.0.2"
@@ -1189,20 +1189,18 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
 
-kitsu-core@^6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-6.4.0.tgz#4fa913dc6f9744c2e1581b215c95e0a48c28f1f1"
-  dependencies:
-    "@babel/runtime" "^7.0.0"
+kitsu-core@^7.0.4:
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-7.0.4.tgz#446710b45f2ea2b3fb3857e709bc2647d42890bc"
 
-kitsu@~6.5.0:
-  version "6.5.1"
-  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-6.5.1.tgz#3a8a8e4b0eda37194b26b342da847dcc1da61b2b"
+kitsu@~7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-7.1.0.tgz#e211dc118e70f41e15400f2f929c620e54fa2dae"
   dependencies:
     "@babel/runtime" "^7.0.0"
-    axios "^0.18.0"
-    kitsu-core "^6.4.0"
-    pluralize "^7.0.0"
+    axios "^0.19.0"
+    kitsu-core "^7.0.4"
+    pluralize "^8.0.0"
 
 koalas@^1.0.2:
   version "1.0.2"
@@ -1486,9 +1484,9 @@ pkg-dir@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
-pluralize@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
+pluralize@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-8.0.0.tgz#1a6fa16a38d12a1901e0320fa017051c539ce3b1"
 
 pointer-symbol@^1.0.0:
   version "1.0.0"
