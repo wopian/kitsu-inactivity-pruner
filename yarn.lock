@@ -49,9 +49,9 @@
   version "7.6.4"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.6.4.tgz#cb9b36a7482110282d5cb6dd424ec9262b473d81"
 
-"@babel/runtime@^7.0.0":
-  version "7.6.3"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.3.tgz#935122c74c73d2240cafd32ddb5fc2a6cd35cf1f"
+"@babel/runtime@^7.7.4":
+  version "7.7.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.7.4.tgz#b23a856751e4bf099262f867767889c0e3fe175b"
   dependencies:
     regenerator-runtime "^0.13.2"
 
@@ -1193,17 +1193,17 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
 
-kitsu-core@^7.0.4:
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-7.0.4.tgz#446710b45f2ea2b3fb3857e709bc2647d42890bc"
+kitsu-core@^7.2.2:
+  version "7.2.2"
+  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-7.2.2.tgz#2140389a20e13062e9f58e247d8f045a79099105"
 
-kitsu@~7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-7.1.0.tgz#e211dc118e70f41e15400f2f929c620e54fa2dae"
+kitsu@~7.2.0:
+  version "7.2.2"
+  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-7.2.2.tgz#5ef2cc01c1c9c62dcc76d4f25c9b07020fa81d99"
   dependencies:
-    "@babel/runtime" "^7.0.0"
+    "@babel/runtime" "^7.7.4"
     axios "^0.19.0"
-    kitsu-core "^7.0.4"
+    kitsu-core "^7.2.2"
     pluralize "^8.0.0"
 
 koalas@^1.0.2:
