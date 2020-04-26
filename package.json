@@ -6,7 +6,10 @@
   "author": "James Harris <wopian@wopian.me>",
   "scripts": {
     "start": "node src/index.mjs",
-    "test": "eslint src/** --ext=.js,.mjs"
+    "test": "eslint src/** --ext=.js,.mjs",
+    "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
+    "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
+    "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags"
   },
   "main": "src",
   "repository": {

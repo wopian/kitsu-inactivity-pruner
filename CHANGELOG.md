@@ -1,3 +1,88 @@
+### 3.1.0 (2020-04-26)
+
+##### Build System / Dependencies
+
+*  update dependency kitsu to ~8.1.0 ([#126](https://github.com/wopian/kitsu-inactivity-pruner/pull/126)) ([c54dfc91](https://github.com/wopian/kitsu-inactivity-pruner/commit/c54dfc910c7a02cca0afe4593bc42315e64e025e))
+*  lock file maintenance ([#127](https://github.com/wopian/kitsu-inactivity-pruner/pull/127)) ([7d6c05da](https://github.com/wopian/kitsu-inactivity-pruner/commit/7d6c05da4d497a8aa623fd7e4433dbfd3a7260a1))
+*  update dependency kitsu to ~8.0.0 ([#123](https://github.com/wopian/kitsu-inactivity-pruner/pull/123)) ([682f9ba6](https://github.com/wopian/kitsu-inactivity-pruner/commit/682f9ba67d7d4305055e6f550a2bbb4183aaec4d))
+*  update dependency kitsu to ~7.3.0 ([#121](https://github.com/wopian/kitsu-inactivity-pruner/pull/121)) ([5edc4c32](https://github.com/wopian/kitsu-inactivity-pruner/commit/5edc4c320de2d024d71933326154a6241352c1a6))
+*  update dependency kitsu to ~7.2.0 ([#120](https://github.com/wopian/kitsu-inactivity-pruner/pull/120)) ([a442d9e9](https://github.com/wopian/kitsu-inactivity-pruner/commit/a442d9e9484ea6901ed8b83b955301246fccc211))
+*  update devdependency eslint to ~6.6.0 ([#117](https://github.com/wopian/kitsu-inactivity-pruner/pull/117)) ([f7402b40](https://github.com/wopian/kitsu-inactivity-pruner/commit/f7402b40edb9cc3ae8349b3f243a921497c51372))
+*  update dependency kitsu to ~7.1.0 ([#116](https://github.com/wopian/kitsu-inactivity-pruner/pull/116)) ([5b130e91](https://github.com/wopian/kitsu-inactivity-pruner/commit/5b130e915ace5dc30ea3a896ffdcd0a7255ceba9))
+*  update devdependency eslint to ~6.5.0 ([#114](https://github.com/wopian/kitsu-inactivity-pruner/pull/114)) ([97c5ee79](https://github.com/wopian/kitsu-inactivity-pruner/commit/97c5ee79af4569dd0cc73e6cd87fc86ba11a163e))
+*  update dependency ora to ~4.0.0 ([#113](https://github.com/wopian/kitsu-inactivity-pruner/pull/113)) ([3bdf19ee](https://github.com/wopian/kitsu-inactivity-pruner/commit/3bdf19eeed9497406da3d07e9fb3d5a714a346a0))
+*  update devdependency eslint to ~6.4.0 ([#112](https://github.com/wopian/kitsu-inactivity-pruner/pull/112)) ([50e21f63](https://github.com/wopian/kitsu-inactivity-pruner/commit/50e21f631042cc4350f6d9b70ca4ae53133563c6))
+*  update devdependency eslint to ~6.3.0 ([#109](https://github.com/wopian/kitsu-inactivity-pruner/pull/109)) ([889d057f](https://github.com/wopian/kitsu-inactivity-pruner/commit/889d057ffb69ce838335d2ec24519b915a1d0b37))
+*  update devdependency eslint to ~6.1.0 ([#107](https://github.com/wopian/kitsu-inactivity-pruner/pull/107)) ([21baf906](https://github.com/wopian/kitsu-inactivity-pruner/commit/21baf906c0b6fa1b1898ecefb7aad6535171cc4c))
+*  update devdependency generate-changelog to ~1.8.0 ([#104](https://github.com/wopian/kitsu-inactivity-pruner/pull/104)) ([fe581b8f](https://github.com/wopian/kitsu-inactivity-pruner/commit/fe581b8ff0e620fae916705c52d24bca13bf3a18))
+*  update devdependency eslint to ~6.0.0 ([#103](https://github.com/wopian/kitsu-inactivity-pruner/pull/103)) ([55cdf6d1](https://github.com/wopian/kitsu-inactivity-pruner/commit/55cdf6d193f4b79c408bb5110f4c17360cff42c6))
+*  update dependency ora to ~3.4.0 ([#99](https://github.com/wopian/kitsu-inactivity-pruner/pull/99)) ([caa4d4b7](https://github.com/wopian/kitsu-inactivity-pruner/commit/caa4d4b7aa7b48f9118100fde56bf33dec79b029))
+*  update devdependency eslint to ~5.16.0 ([#97](https://github.com/wopian/kitsu-inactivity-pruner/pull/97)) ([7660073b](https://github.com/wopian/kitsu-inactivity-pruner/commit/7660073be11ad051b3f4f233aac1cfb2db53bbe8))
+*  update dependency ora to ~3.2.0 ([#96](https://github.com/wopian/kitsu-inactivity-pruner/pull/96)) ([caa6e6bb](https://github.com/wopian/kitsu-inactivity-pruner/commit/caa6e6bb637feb19bdd908416eda98fae16ea149))
+*  update dependency kitsu to ~7.0.0 ([#95](https://github.com/wopian/kitsu-inactivity-pruner/pull/95)) ([173ac8a5](https://github.com/wopian/kitsu-inactivity-pruner/commit/173ac8a50fd2434a5fda703addd6d517412f2f6a))
+*  update devdependency eslint to ~5.15.0 ([#94](https://github.com/wopian/kitsu-inactivity-pruner/pull/94)) ([66dfe9a1](https://github.com/wopian/kitsu-inactivity-pruner/commit/66dfe9a10269e3023640fe811e6aa114f64470c1))
+*  update devdependency eslint to ~5.14.0 ([#93](https://github.com/wopian/kitsu-inactivity-pruner/pull/93)) ([08e2bc4a](https://github.com/wopian/kitsu-inactivity-pruner/commit/08e2bc4a9091698c93411527256208873c861d0c))
+*  update dependency ora to ~3.1.0 ([#92](https://github.com/wopian/kitsu-inactivity-pruner/pull/92)) ([c79a8eb0](https://github.com/wopian/kitsu-inactivity-pruner/commit/c79a8eb0b067d7b405aaebd39d1f207114f30500))
+*  update dependency moment to ~2.24.0 ([#89](https://github.com/wopian/kitsu-inactivity-pruner/pull/89)) ([9783e09a](https://github.com/wopian/kitsu-inactivity-pruner/commit/9783e09a4c6417ac23915d7598d490e252dd81e6))
+*  update devdependency eslint to ~5.13.0 ([#91](https://github.com/wopian/kitsu-inactivity-pruner/pull/91)) ([4c2e7648](https://github.com/wopian/kitsu-inactivity-pruner/commit/4c2e76488e8a8b62cc2d5da77461d0501ee0496c))
+*  update devdependency eslint to ~5.12.0 ([#88](https://github.com/wopian/kitsu-inactivity-pruner/pull/88)) ([9c03ecf8](https://github.com/wopian/kitsu-inactivity-pruner/commit/9c03ecf85be71f8f2e4ba3d8230dac269a89e02c))
+*  update devdependency eslint to ~5.11.0 ([#86](https://github.com/wopian/kitsu-inactivity-pruner/pull/86)) ([62c68b81](https://github.com/wopian/kitsu-inactivity-pruner/commit/62c68b81e935045dc7393adcf9febf5de63a6633))
+*  update dependency moment to ~2.23.0 ([#85](https://github.com/wopian/kitsu-inactivity-pruner/pull/85)) ([a250420a](https://github.com/wopian/kitsu-inactivity-pruner/commit/a250420a02b5515108a08c7d0869edf4c60197c4))
+*  update devdependency eslint to ~5.10.0 ([#84](https://github.com/wopian/kitsu-inactivity-pruner/pull/84)) ([74b0845e](https://github.com/wopian/kitsu-inactivity-pruner/commit/74b0845ee617dafbe8e06a6f53bb5ce802d60938))
+*  update dependency kitsu to ~6.5.0 ([#83](https://github.com/wopian/kitsu-inactivity-pruner/pull/83)) ([a8e39dc5](https://github.com/wopian/kitsu-inactivity-pruner/commit/a8e39dc5b504a2f13b1b87c390f172051d62a795))
+*  update devdependency eslint to ~5.9.0 ([#81](https://github.com/wopian/kitsu-inactivity-pruner/pull/81)) ([84eb66e3](https://github.com/wopian/kitsu-inactivity-pruner/commit/84eb66e3366ffb8d38875723eae2234f288c545b))
+*  update devdependency eslint to ~5.8.0 ([#79](https://github.com/wopian/kitsu-inactivity-pruner/pull/79)) ([5a909b28](https://github.com/wopian/kitsu-inactivity-pruner/commit/5a909b28fa1eaa92c951a7f85be574c6c1417c71))
+*  update devdependency eslint to ~5.7.0 ([#78](https://github.com/wopian/kitsu-inactivity-pruner/pull/78)) ([2d9fdbbb](https://github.com/wopian/kitsu-inactivity-pruner/commit/2d9fdbbb2c8997afe742fd43260a386473916802))
+*  update devdependency eslint to ~5.6.0 ([#77](https://github.com/wopian/kitsu-inactivity-pruner/pull/77)) ([0581707f](https://github.com/wopian/kitsu-inactivity-pruner/commit/0581707fdda5449962494f59459cfc4510adeced))
+*  update dependency kitsu to ~6.4.0 ([#76](https://github.com/wopian/kitsu-inactivity-pruner/pull/76)) ([14fc349c](https://github.com/wopian/kitsu-inactivity-pruner/commit/14fc349c85a6f40d202f6e392fbecec707b3df36))
+
+##### Chores
+
+* **deps:**
+  *  bump acorn from 7.1.0 to 7.1.1 ([#128](https://github.com/wopian/kitsu-inactivity-pruner/pull/128)) ([6fc3b1c3](https://github.com/wopian/kitsu-inactivity-pruner/commit/6fc3b1c3e1abbe9ffe8519098193f0c73b140068))
+  *  bump eslint-utils from 1.4.0 to 1.4.2 ([#110](https://github.com/wopian/kitsu-inactivity-pruner/pull/110)) ([35be70d3](https://github.com/wopian/kitsu-inactivity-pruner/commit/35be70d353139c74ba5bfdf0d487fc81299351cb))
+  *  bump lodash from 4.17.11 to 4.17.14 ([#106](https://github.com/wopian/kitsu-inactivity-pruner/pull/106)) ([6d76728d](https://github.com/wopian/kitsu-inactivity-pruner/commit/6d76728d1854661e22355b757e5457862c3de756))
+*  lock file maintenance ([#125](https://github.com/wopian/kitsu-inactivity-pruner/pull/125)) ([27bc5294](https://github.com/wopian/kitsu-inactivity-pruner/commit/27bc529419acd669c8e4f45838caf80e5f3bda64))
+*  lock file maintenance ([#124](https://github.com/wopian/kitsu-inactivity-pruner/pull/124)) ([7fdce57a](https://github.com/wopian/kitsu-inactivity-pruner/commit/7fdce57afc3bd37a23965fbdb676f24ac053da1b))
+*  lock file maintenance ([#122](https://github.com/wopian/kitsu-inactivity-pruner/pull/122)) ([7bab91e8](https://github.com/wopian/kitsu-inactivity-pruner/commit/7bab91e8a15d13fa3f45b60f08b61ecc6be4a766))
+*  lock file maintenance ([#118](https://github.com/wopian/kitsu-inactivity-pruner/pull/118)) ([cbbea3cc](https://github.com/wopian/kitsu-inactivity-pruner/commit/cbbea3cc2ccc5794c30c0545c06c91e153289fa2))
+*  lock file maintenance ([#115](https://github.com/wopian/kitsu-inactivity-pruner/pull/115)) ([f463c0ca](https://github.com/wopian/kitsu-inactivity-pruner/commit/f463c0ca2794de521e404876faa8efdfa7f450ca))
+*  lock file maintenance ([#111](https://github.com/wopian/kitsu-inactivity-pruner/pull/111)) ([b02cc812](https://github.com/wopian/kitsu-inactivity-pruner/commit/b02cc812b02c3b58acaf19bf3970310a3bed44cf))
+*  lock file maintenance ([#108](https://github.com/wopian/kitsu-inactivity-pruner/pull/108)) ([36299e80](https://github.com/wopian/kitsu-inactivity-pruner/commit/36299e805aae8d602fee8421d609970db6d11254))
+*  lock file maintenance ([#105](https://github.com/wopian/kitsu-inactivity-pruner/pull/105)) ([d78db0ac](https://github.com/wopian/kitsu-inactivity-pruner/commit/d78db0ac7a43ade14a531174a52851f456844333))
+*  lock file maintenance ([#102](https://github.com/wopian/kitsu-inactivity-pruner/pull/102)) ([d96a90c3](https://github.com/wopian/kitsu-inactivity-pruner/commit/d96a90c3752292bef00e3155bc37391593b439d1))
+*  lock file maintenance ([#100](https://github.com/wopian/kitsu-inactivity-pruner/pull/100)) ([172f119c](https://github.com/wopian/kitsu-inactivity-pruner/commit/172f119c14e8e9e4ca6263dad48207cebb29caad))
+*  lock file maintenance ([#98](https://github.com/wopian/kitsu-inactivity-pruner/pull/98)) ([ba6c1a0c](https://github.com/wopian/kitsu-inactivity-pruner/commit/ba6c1a0c21921401089c7fea85665f5cb26dfdb9))
+*  lock file maintenance ([#87](https://github.com/wopian/kitsu-inactivity-pruner/pull/87)) ([c68411b1](https://github.com/wopian/kitsu-inactivity-pruner/commit/c68411b126bc648ff713703c9c7ad4c4dd4eeba2))
+*  lock file maintenance ([#82](https://github.com/wopian/kitsu-inactivity-pruner/pull/82)) ([6dd7e508](https://github.com/wopian/kitsu-inactivity-pruner/commit/6dd7e508d073966a25f2ed047846207a1a64151f))
+*  lock file maintenance ([#80](https://github.com/wopian/kitsu-inactivity-pruner/pull/80)) ([94f2229d](https://github.com/wopian/kitsu-inactivity-pruner/commit/94f2229dd02aa04b844c090e36d9e1ebe3736bc6))
+*  lock file maintenance ([d2636e33](https://github.com/wopian/kitsu-inactivity-pruner/commit/d2636e33875132e4af3c06bcb6053aa787cc31db))
+* **release:**  publish 3.0.1 ([cba12be1](https://github.com/wopian/kitsu-inactivity-pruner/commit/cba12be15477112358a150562d971175c35c8ad9))
+
+##### Continuous Integration
+
+* **travis:**
+  *  temp disable windows ([060b8bda](https://github.com/wopian/kitsu-inactivity-pruner/commit/060b8bda148d435b3563fd3f98d5c5395349f913))
+  *  disable gpg ([2a383ede](https://github.com/wopian/kitsu-inactivity-pruner/commit/2a383eded6ae9c8924a730617a4f5a1ad9eed978))
+  *  run on 16.04, macOS and windows ([bc74687f](https://github.com/wopian/kitsu-inactivity-pruner/commit/bc74687f4c18ba0b071d7274d541e003738c260c))
+
+##### Documentation Changes
+
+* **readme:**  update node requirement to 10 ([1a7b5120](https://github.com/wopian/kitsu-inactivity-pruner/commit/1a7b5120f066fce7741378a7596c1e1283e6bd0e))
+*  rename files to .mjs ([a728a9c6](https://github.com/wopian/kitsu-inactivity-pruner/commit/a728a9c6afa0a01507b3b177b376461aeb441dac))
+
+##### New Features
+
+*  check last library update ([bb1269bf](https://github.com/wopian/kitsu-inactivity-pruner/commit/bb1269bf12a483447e54c4dc4549cc0eb13b9b84))
+
+##### Bug Fixes
+
+*  await follow deletion ([e36cfefa](https://github.com/wopian/kitsu-inactivity-pruner/commit/e36cfefac6989000fae4ec4e03cca88f9e40d686))
+
+##### Refactors
+
+*  resolve eslint errors ([57ec44bd](https://github.com/wopian/kitsu-inactivity-pruner/commit/57ec44bd20810bbfdfc067a773b2de02e0a6b8f6))
+
 #### 3.0.1 (2018-09-07)
 
 ##### Documentation Changes
