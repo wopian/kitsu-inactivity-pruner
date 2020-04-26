@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "James Harris <wopian@wopian.me>",
   "scripts": {
-    "start": "node --experimental-modules src",
+    "start": "node src/index.mjs",
     "test": "eslint src/** --ext=.js,.mjs"
   },
   "main": "src",

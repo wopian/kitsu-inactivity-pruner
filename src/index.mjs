@@ -1,12 +1,14 @@
+import fs from 'fs'
 import OAuth2 from 'client-oauth2'
 import Kitsu from 'kitsu'
 import Ora from 'ora'
 import Confirm from 'prompt-confirm'
 import moment from 'moment'
-import * as packageJSON from '../package'
-import { config } from '../config'
+import { config } from '../config.mjs'
 
-const { version, homepage } = packageJSON
+const require = (filepath, encoding = 'utf8') => JSON.parse(fs.readFileSync(filepath, { encoding }))
+
+const { version, homepage } = require('./package.json')
 const USERNAME = config.USERNAME
 const PASSWORD = config.PASSWORD
 
@@ -47,7 +49,7 @@ const promptToUnfollow = async (name, id, timeFromNow) => {
 const findInactiveUsers = async follows => {
   try {
     removedCount = 0
-    for (let { id, followed } of follows) {
+    for (const { id, followed } of follows) {
       if (followed === undefined) {
         await api.remove('follows', id)
         ora.text = 'Unfollowed deleted user'
@@ -58,7 +60,7 @@ const findInactiveUsers = async follows => {
           page: { limit: 1 }
         })
         // Get activity timestamp
-        let time = moment(await feed[0].updatedAt)
+        const time = moment(await feed[0].updatedAt)
         // Skip if last activity was less than 6 months
         if (await now.diff(time, 'months') >= 6) await promptToUnfollow(followed.name, id, time.fromNow())
       }
@@ -89,10 +91,10 @@ const getFollows = async ({ id, offset = 0 }) => {
 const main = async () => {
   try {
     ora.text = 'Logging In'
-    let { accessToken } = await auth.owner.getToken(USERNAME, PASSWORD)
-    api.headers['Authorization'] = await `Bearer ${accessToken}`
+    const { accessToken } = await auth.owner.getToken(USERNAME, PASSWORD)
+    api.headers.Authorization = `Bearer ${accessToken}`
     ora.text = 'Fetching your user ID'
-    let { id } = await api.self({ fields: { users: 'id' } })
+    const { id } = await api.self({ fields: { users: 'id' } })
     if (id === undefined) {
       ora.stop()
       console.error(
