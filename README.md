@@ -1,11 +1,10 @@
 # Inactivity Pruner
 
 [![release badge]][release]
-[![david badge]][david]
-[![donate badge]][donate]
-
 [![travis badge]][travis]
+[![david badge]][david]
 [![david dev badge]][david dev]
+[![donate badge]][donate]
 
 Prune inactive [Kitsu.io] users you're following
 
