@@ -1,6 +1,6 @@
 {
   "name": "kitsu-inactivity-pruner",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "Prune inactive accounts",
   "license": "MIT",
   "author": "James Harris <wopian@wopian.me>",
