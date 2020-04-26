@@ -5,7 +5,6 @@
 [![donate badge]][donate]
 
 [![travis badge]][travis]
-[![appveyor badge]][appveyor]
 [![cc maintainability badge]][cc maintainability]
 [![cc debt badge]][cc debt]
 [![cc issues badge]][cc issues]
@@ -88,9 +87,6 @@ All code released under the [MIT] license
 
 [travis]:https://travis-ci.org/wopian/kitsu-inactivity-pruner
 [travis badge]:https://flat.badgen.net/travis/wopian/kitsu-inactivity-pruner
-
-[appveyor]:https://ci.appveyor.com/project/wopian/kitsu-inactivity-pruner
-[appveyor badge]:https://flat.badgen.net/appveyor/ci/wopian/kitsu-inactivity-pruner
 
 [cc maintainability]:https://codeclimate.com/github/wopian/kitsu-inactivity-pruner
 [cc maintainability badge]:https://flat.badgen.net/codeclimate/maintainability/wopian/kitsu-inactivity-pruner

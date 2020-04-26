@@ -3,7 +3,7 @@ engines:
     enabled: true
     config:
       extensions:
-      - .js
+      - .mjs
   fixme:
     enabled: true
   # Waiting on https://github.com/nodesecurity/nsp/pull/142 to support yarn.lock
@@ -23,6 +23,6 @@ ratings:
   - "**.js"
   - "**.md"
   - "**.sh"
-exclude_paths:
-- .vscode
-- tests
+exclude_patterns:
+- ".vscode/"
+- "CHANGELOG.md"
