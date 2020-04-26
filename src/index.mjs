@@ -55,14 +55,31 @@ const findInactiveUsers = async follows => {
         ora.text = 'Unfollowed deleted user'
       } else {
         ora.text = `Fetching ${followed.name}'s feed`
-
         const { data: feed } = await api.fetch(`feeds/user_aggr/${followed.id}`, {
-          page: { limit: 1 }
+          page: { limit: 1 },
+          fields: { activityGroups: 'updatedAt' }
         })
+
+        ora.text = `Fetching ${followed.name}'s library`
+        const { data: library } = await api.fetch('libraryEntries', {
+          page: { limit: 1 },
+          filter: { userId: followed.id },
+          fields: { libraryEntries: 'updatedAt' },
+          sort: '-updatedAt'
+        })
+
         // Get activity timestamp
-        const time = moment(await feed[0].updatedAt)
+        const timeFeed = moment(await feed.length > 0 ? await feed[0].updatedAt : 0)
+        const timeLibrary = moment(await library.length > 0 ? await library[0].updatedAt : 0)
+
+        const diffFeed = now.diff(timeFeed, 'months')
+        const diffLibrary = now.diff(timeLibrary, 'months')
+
         // Skip if last activity was less than 6 months
-        if (await now.diff(time, 'months') >= 6) await promptToUnfollow(followed.name, id, time.fromNow())
+        if (Math.min(diffFeed, diffLibrary) >= 6) {
+          const lowestTime = diffFeed > diffLibrary ? timeLibrary : timeFeed
+          await promptToUnfollow(followed.name, id, lowestTime.fromNow())
+        }
       }
     }
   } catch (error) {
