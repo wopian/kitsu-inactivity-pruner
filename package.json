@@ -23,7 +23,7 @@
   "dependencies": {
     "client-oauth2": "~4.3.0",
     "kitsu": "~8.3.0",
-    "moment": "~2.25.0",
+    "moment": "~2.26.0",
     "ora": "~4.0.0",
     "prompt-confirm": "~2.0.4"
   },
