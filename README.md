@@ -4,7 +4,6 @@
 [![travis badge]][travis]
 [![david badge]][david]
 [![david dev badge]][david dev]
-[![donate badge]][donate]
 
 Prune inactive [Kitsu.io] users you're following
 
@@ -82,6 +81,3 @@ All code released under the [MIT] license
 
 [travis]:https://travis-ci.org/wopian/kitsu-inactivity-pruner
 [travis badge]:https://flat.badgen.net/travis/wopian/kitsu-inactivity-pruner
-
-[donate]:https://paypal.me/wopian
-[donate badge]:https://flat.badgen.net/badge/support%20me%20on/paypal.me/pink
