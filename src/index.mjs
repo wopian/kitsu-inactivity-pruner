@@ -32,7 +32,7 @@ const promptToUnfollow = async (name, id, timeFromNow) => {
 
   await new Confirm({
     message: `Unfollow ${name}`,
-    default: false
+    default: true
   }).run().then(async answer => {
     ora.start()
     if (answer) {
