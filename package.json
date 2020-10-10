@@ -28,7 +28,7 @@
     "prompt-confirm": "~2.0.4"
   },
   "devDependencies": {
-    "eslint": "~7.10.0",
+    "eslint": "~7.11.0",
     "eslint-config-wopian": "~2.0.0",
     "generate-changelog": "~1.8.0"
   },
